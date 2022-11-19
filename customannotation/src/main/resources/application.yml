@@ -1,0 +1,28 @@
+#spring:
+#  profiles:
+#    active: dev
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/hms_medicals_lab_schema?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Dhaka
+##    url: jdbc:mysql://103.10.234.161:3306/lab_ajis_schema?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+#    username: workshop@hmslab.com
+#    password: admin
+## heroku-dev connection
+##    url: jdbc:mysql://bfa83c4e36545c:58b35289@us-cdbr-east-06.cleardb.net/heroku_6126a713091b3d5?reconnect=true
+##      #    url: jdbc:mysql://103.10.234.161:3306/lab_ajis_schema?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+##    username: bfa83c4e36545c
+##    password: 58b35289
+#  jpa:
+#    database: mysql
+#    show-sql: true
+#  application:
+#    name: hms_medicals_lab_schema
+#feign:
+#  client:
+#    config:
+#      default:
+#        connectTimeout: 10000
+#        readTimeout: 10000
+#        loggerLevel: full
+#server:
+#  port: 8085
+#
